@@ -1,7 +1,3 @@
-Para entregar essa parte do trabalho sem complicação, você precisará realizar os passos práticos no seu computador e no GitHub. Abaixo está o passo a passo exato do que você deve fazer e o código pronto para copiar e colar em cada arquivo.
-
----
-
 **Passo 1: Criar as pastas e arquivos no seu computador**
 
 Abra o terminal (ou Prompt de Comando) em uma pasta no seu computador e execute os comandos:
