@@ -1,9 +1,30 @@
-Amigos de Quatro Patas — Assis, SP.
+# Solução — Sistema de Gestão e Controle de Estoque de Doações
 
-Fundada em 2023, a Amigos de Quatro Patas é uma organização não governamental dedicada ao resgate, reabilitação e encaminhamento para doação de animais em situação de abandono ou maus-tratos na cidade de Assis e região.
+## 🐾 Sobre o Projeto
+O **Solução** é um sistema web desenvolvido para a ONG **Amigos de Quatro Patas**, localizada em Assis-SP. A instituição resgata, reabilita e promove a doação de animais em situação de abandono e maus-tratos.
 
-Com uma equipe formada por 2 coordenadores e cerca de 15 voluntários ativos, a ONG atende aproximadamente 120 animais por mês. Sem fins lucrativos e com orçamento zero para TI, a instituição atua intermediando a captação de recursos, rações e medicamentos essenciais para garantir o bem-estar, a alimentação continuada e os cuidados médicos dos animais assistidos.
+O objetivo do sistema é eliminar o descontrole no estoque de doações (rações, medicamentos e insumos de limpeza), permitindo o registro de entradas, saídas, controle de validade e alertas visuais automáticos para itens com estoque mínimo.
 
+---
+
+## 🛠️ Tecnologias Utilizadas
+- **Frontend:** React.js / HTML5 / CSS3 / JavaScript
+- **Backend:** Node.js + Express
+- **Banco de Dados:** PostgreSQL / MySQL (ORM: Prisma ou Sequelize)
+- **Autenticação:** JWT (JSON Web Token)
+- **Hospedagem:** Vercel (Frontend) / Render (Backend) / Supabase (Banco de Dados)
+
+---
+
+## 📁 Estrutura do Repositório
+```text
+solucao-estoque-ong/
+├── docs/        # Documentação do projeto e Documento de Visão (PDF)
+├── database/    # Scripts SQL para criação do banco de dados
+├── backend/     # Código fonte do servidor da aplicação (API REST)
+├── frontend/    # Código fonte da interface do usuário
+├── .env.example # Exemplo de variáveis de ambiente
+└── .gitignore   # Arquivos ignorados pelo Git
 
 
 
